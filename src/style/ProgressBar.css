@@ -1,0 +1,95 @@
+.progress-bars {
+    position: fixed;
+    top: 55%;
+    right:15%;
+    padding: 20px;
+    margin-bottom: 100px;
+
+  }
+  
+  .above-text {
+    color: rgb(156, 154, 151);
+    font-size: 27px;
+    margin-top: 250px; /* Adjust this value as needed */
+    width: 800px;
+    margin-left: 1450px; /* Adjust this value as needed */
+    position: fixed;
+  }
+  .hline{
+    width: 600px;
+    color: rgb(118, 114, 114);
+    height: 1px;
+    margin-left: 500px;
+    margin-top: 280px;
+    position: fixed;
+  }
+  .h1line{
+    width: 600px;
+    color: rgb(118, 114, 114);
+    height: 1px;
+    margin-left: 500px;
+    margin-top:1055px;
+    position: fixed;
+  }
+
+  .vline{
+    width: 1px;
+    height: 770px;
+    color: rgb(118, 114, 114);
+    margin-left: 500px;
+    margin-top: 283px;
+    position:fixed;
+  }
+  .progress-bar {
+    margin-bottom: 100px;
+  }
+  
+  .label {
+    margin-bottom: 25px;
+    color: #e9dada;
+    font-size: 20px;
+  }
+  
+  .up{
+    color: aliceblue;
+    font-size: 90px;
+  }
+  
+  .progress {
+    height: 10px;
+    background-color: #e9dada;
+    position: relative;
+    overflow: hidden;
+    width: 690px;
+    border-radius: 5px;
+  }
+  
+  body {
+    background-color: #171616;
+    height: 100%;
+  }
+  
+  .progress::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: var(--percentage);
+    background-color: #ff2200;
+    animation: progressAnimation 1s ease-in-out forwards;
+  }
+  .nine{
+    margin-top: 300px;
+    position: fixed;
+    margin-left:550px ;
+    height: 700px;
+   
+  }
+  
+  @keyframes progressAnimation {
+    from {
+      width: 0;
+    }
+  }
+  

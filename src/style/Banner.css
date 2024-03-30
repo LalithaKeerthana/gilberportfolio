@@ -1,0 +1,58 @@
+.home {
+    width: 100%;
+    background-image: url('C:\Users\nutri\OneDrive\Documents\free-portfolio-one-main\src\assets\images\bannerImg.png');
+    height: 1500px;
+    background-size: 110% 110%;
+    background-position: center center;
+    animation: shrink 2s infinite ; /* Adjust the duration here */
+  }
+  @keyframes shrink {
+    0% {
+      background-size: 110% 110%;
+    }
+    100% {
+      background-size: 100% 100%;
+    }
+  }
+.icon-bar {
+    position: fixed;
+    top: 20%;
+    margin-left: 120px;
+  }
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 26px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 60px;
+  }
+  
+.icon-bar a:hover {
+    background-color: #000;
+  }
+.facebook {
+    background-color: #000;
+    color: white;
+  }
+.twitter {
+    background-color: #000;
+    color: white;
+  }
+.instagram {
+    background-color: #000;
+    color: white;
+  }
+.line-image {
+    width: 2px; /* Adjust the width as needed */
+    height: 90px; /* Adjust the height as needed */
+    margin-left: 50px;
+  }
+.bottomline-image{
+    width: 2px; /* Adjust the width as needed */
+    height: 90px;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+  
+  

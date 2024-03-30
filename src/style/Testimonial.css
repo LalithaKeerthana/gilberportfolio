@@ -1,0 +1,35 @@
+.testimonial-container {
+   background-image: url('https://media.istockphoto.com/id/675715346/photo/top-view-of-pitch-black-office-desk-with-computer-and-supplies.webp?b=1&s=170667a&w=0&k=20&c=v1mQgLrB88dopsrLVZsqs1OMFO-ozMzLLLAq_6-yV5w=');
+    background-size: cover;
+    background-position: center; 
+    height: 1500px;
+    animation: shrink 2s infinite ; 
+}
+@keyframes shrink {
+  0% {
+    background-size: 110% 110%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
+}
+  
+  .quote-icon {
+    position: absolute;
+    margin-top: 180px;
+    left: 300px;
+    height: 300px;
+    width: 240px;
+    }
+
+    .testimonial-text {
+        font-size: 100px;
+        width: 1000px;
+        left: 15%;
+        color: white; /* Set text color */
+        top: 800px;
+        position: relative;
+
+      /* Adjust spacing */
+      }
+  
